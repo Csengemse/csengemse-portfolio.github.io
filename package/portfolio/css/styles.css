@@ -1,0 +1,167 @@
+body {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-size: 15px;
+}
+
+body, ul{
+  margin:0;
+  padding:0;
+}
+
+h1, h2, .skills-list{ font-family: 'Inknut Antiqua', serif;
+}
+
+nav {font-family: 'Inknut Antiqua', serif;
+
+}
+
+img {
+/* this is limiting the width of the image,so it takes 100% width of the parent maximim */
+  max-width: 100%
+}
+
+nav {
+    background-color: #DBEBF4;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+    margin: 0 10px; refers to top and buttom
+    15 px to left and right*/
+    padding: 0;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    color: #40804F;
+    font-size: 14px;
+}
+
+body, ul{
+  margin:0;
+  padding:0;
+}
+
+nav ul{
+  margin:0 auto;
+  text-align: center;
+  padding: 30px;
+  font-size: 14 px;
+  outline: none;
+}
+
+nav li a {
+text-decoration: none;
+color: #40804F;
+outline: none;
+}
+
+nav li a:hover {
+text-decoration: underline 0.5s ease-in-out, color 0.5s ease-in-out;
+color:plum;
+}
+
+li.empty {
+width: 150px;
+border-top: 1px solid green;
+top: -5px;
+position: relative;
+outline: none;
+}
+
+header {
+    top: 70px;
+    position: relative;
+    margin-bottom: 220px;
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 120%;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 120%;
+}
+
+h1,h2 {
+  font-weight: normal;
+}
+
+ol {
+    list-style: none;
+    margin: 10px 0;
+}
+
+p {
+  line-height: 150%;
+}
+
+.button {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 10px 30px;
+  margin-top: 40px;
+  display: inline-block;
+  border-radius: 20px;
+  transition:background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.button:hover {
+  background:plum;
+  color:white;
+}
+
+figcaption {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.intro-img {
+  box-shadow: 1px 2px 30px rgba(0,0,0,0.2);
+  margin-top: 40px;
+}
+
+.skills-list {
+  text-align: center;
+  font-size: 50px;
+  line-height: 150%;
+  margin-bottom: 130px;
+}
+
+.project {
+  margin: 40px 0;
+  padding: 50px ;
+}
+
+.blue {
+  background-color: #DBEBF4;
+}
+
+.project .button {
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  margin: 100px;
+}
+
+footer h2 {
+  font-size: 30px;
+  margin-bottom: 100px;
+  color: #40804F;
+
+}
+
+.right-alignment {
+  text-align: right;
+}
